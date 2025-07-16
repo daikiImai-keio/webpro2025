@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
     // ルートパスへのアクセス
     console.log("Routing for /");
     res.writeHead(200); // ステータスコード 200 (OK)
-    res.end('こんにちは！');
+    res.end('ひようら検索データベース');
   } else if (path === '/ask') {
     // /ask パスへのアクセス
     console.log("Routing for /ask");
